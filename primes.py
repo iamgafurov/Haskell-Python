@@ -1,4 +1,4 @@
-'''
+'''d
 It's method for identify prime numbers
 '''
 def isPrime(m):
