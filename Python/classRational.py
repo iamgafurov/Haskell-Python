@@ -102,11 +102,11 @@ def main():
     #           d=gcd(n1,m1)'''
 def rootofR(self):
     #epsl = Rational(epsl,1)
-    x0 = self.RtoF() + 1
-    x1 = (x0 + self.RtoF() / x0) * 1/2
-    while abs(x1 - x0) > 1e-15:
+    x0 =self +  Rational(1)
+    x1 = (x0 + self/ x0) * Rational(1/2)
+    while abs(x1 - x0) > Rational(1/100000000):
         x0 = x1
-        x1 = (x0 + (self.RtoF() / x0)) / 2
+        x1 = (x0 + (self/ x0)) / Rational(2)
     return x1
 if __name__ == "__main__":
     main()
