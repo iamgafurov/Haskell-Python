@@ -1,1 +1,2 @@
-import numpy
+def pl(lst):
+    n= len(lst)

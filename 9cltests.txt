@@ -1,0 +1,167 @@
+====== Test #1 =======
+--- Input: size 6 ---
+192 32
+--- Output: size 3 ---
+32
+
+--- Correct: size 2 ---
+32
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=2, stime=0, ptime=2, rtime=3, maxvsz=331776, maxrss=2838528, nvcsw=1, nivcsw=3 }
+checker: { utime=0, stime=0, ptime=0, rtime=2, maxvsz=331776, maxrss=1708032, nvcsw=1, nivcsw=2 }
+
+====== Test #2 =======
+--- Input: size 6 ---
+934
+16
+--- Output: size 2 ---
+2
+
+--- Correct: size 1 ---
+2
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=1, stime=0, ptime=1, rtime=2, maxvsz=331776, maxrss=2768896, nvcsw=1, nivcsw=2 }
+checker: { utime=0, stime=0, ptime=0, rtime=1, maxvsz=331776, maxrss=1970176, nvcsw=1, nivcsw=2 }
+
+====== Test #3 =======
+--- Input: size 6 ---
+882 36
+--- Output: size 3 ---
+18
+
+--- Correct: size 2 ---
+18
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=0, stime=1, ptime=1, rtime=2, maxvsz=331776, maxrss=2613248, nvcsw=1, nivcsw=2 }
+checker: { utime=0, stime=0, ptime=0, rtime=2, maxvsz=331776, maxrss=1904640, nvcsw=1, nivcsw=2 }
+
+====== Test #4 =======
+--- Input: size 4 ---
+53 3
+--- Output: size 2 ---
+1
+
+--- Correct: size 1 ---
+1
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=1, stime=0, ptime=1, rtime=3, maxvsz=331776, maxrss=2768896, nvcsw=1, nivcsw=2 }
+checker: { utime=0, stime=0, ptime=0, rtime=2, maxvsz=331776, maxrss=1765376, nvcsw=1, nivcsw=1 }
+
+====== Test #5 =======
+--- Input: size 7 ---
+8344
+16
+--- Output: size 2 ---
+8
+
+--- Correct: size 1 ---
+8
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=0, stime=1, ptime=1, rtime=2, maxvsz=331776, maxrss=2568192, nvcsw=1, nivcsw=2 }
+checker: { utime=0, stime=0, ptime=0, rtime=1, maxvsz=331776, maxrss=1974272, nvcsw=1, nivcsw=2 }
+
+====== Test #6 =======
+--- Input: size 6 ---
+125 15
+--- Output: size 2 ---
+5
+
+--- Correct: size 1 ---
+5
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=1, stime=0, ptime=1, rtime=2, maxvsz=331776, maxrss=2752512, nvcsw=1, nivcsw=2 }
+checker: { utime=0, stime=0, ptime=0, rtime=2, maxvsz=331776, maxrss=1884160, nvcsw=1, nivcsw=2 }
+
+====== Test #7 =======
+--- Input: size 10 ---
+1251322 64
+--- Output: size 2 ---
+2
+
+--- Correct: size 1 ---
+2
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=1, stime=0, ptime=1, rtime=3, maxvsz=331776, maxrss=2699264, nvcsw=1, nivcsw=2 }
+checker: { utime=0, stime=0, ptime=0, rtime=2, maxvsz=331776, maxrss=1904640, nvcsw=1, nivcsw=2 }
+
+====== Test #8 =======
+--- Input: size 6 ---
+144 24
+--- Output: size 3 ---
+24
+
+--- Correct: size 2 ---
+24
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=0, stime=1, ptime=1, rtime=2, maxvsz=331776, maxrss=2576384, nvcsw=1, nivcsw=3 }
+checker: { utime=0, stime=0, ptime=0, rtime=1, maxvsz=331776, maxrss=1769472, nvcsw=1, nivcsw=2 }
+
+====== Test #9 =======
+--- Input: size 6 ---
+256 48
+--- Output: size 3 ---
+16
+
+--- Correct: size 2 ---
+16
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK
+
+--- Resource usage ---
+program: { utime=1, stime=0, ptime=1, rtime=2, maxvsz=331776, maxrss=2633728, nvcsw=1, nivcsw=3 }
+checker: { utime=0, stime=0, ptime=0, rtime=1, maxvsz=331776, maxrss=1937408, nvcsw=1, nivcsw=2 }
+
+====== Test #10 =======
+--- Input: size 6 ---
+196 56
+--- Output: size 3 ---
+28
+
+--- Correct: size 2 ---
+28
+--- Stderr: size 0 ---
+
+--- Checker output: size 3 ---
+OK

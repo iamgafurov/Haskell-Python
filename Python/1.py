@@ -1,2 +1,3 @@
-def main():
-    lst=squares(20)
+def area(lst):
+    n=len(lst)
+    print n
